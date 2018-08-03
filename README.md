@@ -1,4 +1,4 @@
-Avation Interview Framework TestNG Maven
+Alation Interview Framework TestNG Maven
 
 Precondition: 
 Install Maven and Java on your local machine to run the test script.
@@ -67,7 +67,7 @@ Framework Structure Explanation:
 3.1. On top of page object file you can see the locators. On top of page object file you can modify the locators.
 
 4. Below test case folder you can see all the testcase class files
-Avation_interview\src\test\java\testcase\catalog_search.java
+\src\test\java\testcase\catalog_search.java
 
 4.1. On top testcase file initialized selenium webdriver
 
@@ -86,7 +86,7 @@ Avation_interview\src\test\java\testcase\catalog_search.java
 4.8. Under After suite flush and close the extent report logger
 
 5. View the automation test execution results on below extent report
-Avation_interview\Extent_Report\ExtentReport.html
+\Extent_Report\ExtentReport.html
 
 6. Under below resources folder we can see the screenshots, browser driver and book details which are captured on automation test script
-Avation_interview\src\test\resources
+\src\test\resources
