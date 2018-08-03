@@ -58,21 +58,35 @@ load the category url.
 
 Framework Structure Explanation:
 1. I have designed TestNG Maven project
+
 2. pom.xml file contains selenium, testng, apache commons and extent report dependencies. Added surefire plugin dependency to build and run the maven project on terminal.
+
 3. Below page object folder you can see all the pageobject class files
 \src\test\java\pageobject\amazon_pageobject.java
+
 3.1. On top of page object file you can see the locators. On top of page object file you can modify the locators.
+
 4. Below test case folder you can see all the testcase class files
 Avation_interview\src\test\java\testcase\catalog_search.java
+
 4.1. On top testcase file initialized selenium webdriver
+
 4.2. Initialized testdata globally which are going to use it on testcase file
+
 4.3. Initialized extent report and extent report log
+
 4.4. Under Before suite initialized extent report environment
+
 4.5. Under Before method initialized configured browser property, maximize window and implicit wait
+
 4.6. Under @Test method start the extent report logger and call the page object methods which are required for the testcase
+
 4.7. Under After method take screenshot for Pass and failed test case, then log the test status on extent report and quit the webdriver
+
 4.8. Under After suite flush and close the extent report logger
+
 5. View the automation test execution results on below extent report
 Avation_interview\Extent_Report\ExtentReport.html
+
 6. Under below resources folder we can see the screenshots, browser driver and book details which are captured on automation test script
 Avation_interview\src\test\resources
